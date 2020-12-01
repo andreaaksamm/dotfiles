@@ -3,7 +3,7 @@ filetype off
 
 let g:lsc_auto_map = v:true
 
-execute pathogen#infect()
+"execute pathogen#infect()
 filetype plugin indent on
 
 syntax on
@@ -49,3 +49,6 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_cmd='CtrlP :pwd'
 let g:ctrlp_custom_ignore = 'node_modules\|public\|_site'
+
+nnoremap H gT
+nnoremap L gt
